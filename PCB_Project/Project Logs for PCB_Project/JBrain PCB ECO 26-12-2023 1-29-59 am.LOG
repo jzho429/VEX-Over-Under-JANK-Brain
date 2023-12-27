@@ -1,0 +1,22 @@
+Change Component Designator: OldDesignator=J1 NewDesignator=J2
+Added Component: Designator=?(TEENSY41)
+Add component (AddParameter): Name = "Core Architecture"; Value = "ARM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Design Item ID"; Value = "TEENSY41"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "TEENSY41"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Evaluation Kit"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "teensy"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "TEENSY41"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "i.MX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "teensy.SCHLIB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "TEENSY41"; VariantName = "[No Variations]"
+Added Component: Designator=J1(95503-6891)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA5/408567.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Molex"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "95503-6891"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "538-95503-6891"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Molex/95503-6891?qs=MJut%252BdqOEgjIr%252BakMzdZ%252BA%3D%3D"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=Top Level Member=Component ? TEENSY41
+Added Member To Class: ClassName=Top Level Member=Component J2 95503-6891
