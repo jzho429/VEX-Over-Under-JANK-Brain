@@ -1,0 +1,37 @@
+Removed Pin From Net: NetName=VBat Pin=4-1
+Removed Pin From Net: NetName=GND Pin=4-2
+Removed Pin From Net: NetName=GND Pin=5-2
+Removed Member From Class: ClassName=U_Voltage Regulator Member=4
+Removed Member From Class: ClassName=U_Voltage Regulator Member=5
+Add Component: Footprint Not Found SOT95P275X110-6N
+Add Component: Footprint Not Found SOT95P275X110-6N
+Add Component: Footprint Not Found SOT95P275X110-6N
+Add Component: Footprint Not Found SOT95P275X110-6N
+Add Pin To Net: Unknown Pin: Pin IC3-1
+Add Pin To Net: Unknown Pin: Pin IC3-2
+Add Pin To Net: Unknown Pin: Pin IC3-3
+Add Pin To Net: Unknown Pin: Pin IC3-4
+Add Pin To Net: Unknown Pin: Pin IC3-5
+Add Pin To Net: Unknown Pin: Pin IC3-6
+Add Pin To Net: Unknown Pin: Pin IC4-1
+Add Pin To Net: Unknown Pin: Pin IC4-2
+Add Pin To Net: Unknown Pin: Pin IC4-3
+Add Pin To Net: Unknown Pin: Pin IC4-4
+Add Pin To Net: Unknown Pin: Pin IC4-5
+Add Pin To Net: Unknown Pin: Pin IC4-6
+Add Pin To Net: Unknown Pin: Pin IC5-1
+Add Pin To Net: Unknown Pin: Pin IC5-2
+Add Pin To Net: Unknown Pin: Pin IC5-3
+Add Pin To Net: Unknown Pin: Pin IC5-4
+Add Pin To Net: Unknown Pin: Pin IC5-5
+Add Pin To Net: Unknown Pin: Pin IC5-6
+Add Pin To Net: Unknown Pin: Pin IC6-1
+Add Pin To Net: Unknown Pin: Pin IC6-2
+Add Pin To Net: Unknown Pin: Pin IC6-3
+Add Pin To Net: Unknown Pin: Pin IC6-4
+Add Pin To Net: Unknown Pin: Pin IC6-5
+Add Pin To Net: Unknown Pin: Pin IC6-6
+Add Class Member: Failed to add class member : Component IC3 NUD3124DMT1G
+Add Class Member: Failed to add class member : Component IC4 NUD3124DMT1G
+Add Class Member: Failed to add class member : Component IC5 NUD3124DMT1G
+Add Class Member: Failed to add class member : Component IC6 NUD3124DMT1G
