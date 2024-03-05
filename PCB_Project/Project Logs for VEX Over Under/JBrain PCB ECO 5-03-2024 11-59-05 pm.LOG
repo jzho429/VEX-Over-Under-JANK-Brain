@@ -1,0 +1,34 @@
+Added Component: Designator=IC1(SOT230P700X180-4N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "AZ1117CH2-5.0TRG1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/az1117ch2-5.0trg1/diodes-incorporated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.arrow.com/en/products/az1117ch2-5.0trg1/diodes-incorporated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Diodes Incorporated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "AZ1117CH2-5.0TRG1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "621-AZ1117CH2-5.0TRG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AZ1117CH2-5.0TRG1?qs=5V6w%252Be2aIqb578qtLdqPjw%3D%3D"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found 95503-6891
+Add Component: Footprint Not Found 95503-6891
+Added Pin To Net: NetName=VBat Pin=IC1-1
+Added Pin To Net: NetName=GND Pin=IC1-2
+Added Pin To Net: NetName=5V Pin=IC1-3
+Added Pin To Net: NetName=GND Pin=IC1-4
+Add Pin To Net: Unknown Pin: Pin J3-1
+Add Pin To Net: Unknown Pin: Pin J3-2
+Add Pin To Net: Unknown Pin: Pin J3-3
+Add Pin To Net: Unknown Pin: Pin J3-4
+Add Pin To Net: Unknown Pin: Pin J3-5
+Add Pin To Net: Unknown Pin: Pin J3-6
+Add Pin To Net: Unknown Pin: Pin J3-7
+Add Pin To Net: Unknown Pin: Pin J3-8
+Add Pin To Net: Unknown Pin: Pin J4-1
+Add Pin To Net: Unknown Pin: Pin J4-2
+Add Pin To Net: Unknown Pin: Pin J4-3
+Add Pin To Net: Unknown Pin: Pin J4-4
+Add Pin To Net: Unknown Pin: Pin J4-5
+Add Pin To Net: Unknown Pin: Pin J4-6
+Add Pin To Net: Unknown Pin: Pin J4-7
+Add Pin To Net: Unknown Pin: Pin J4-8
+Added Member To Class: ClassName=U_Voltage Regulator Member=Component IC1 AZ1117CH2-5.0TRG1
+Add Class Member: Failed to add class member : Component J3 95503-6891
+Add Class Member: Failed to add class member : Component J4 95503-6891

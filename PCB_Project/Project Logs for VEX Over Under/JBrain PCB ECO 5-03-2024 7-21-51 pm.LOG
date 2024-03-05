@@ -1,0 +1,4 @@
+Removed Member From Class: ClassName=U_Voltage Regulator Member=IC2
+Removed Member From Class: ClassName=Top Level Member=U1
+Added Member To Class: ClassName=U_Pneumatics Member=Component IC5 NUD3124DMT1G
+Added Member To Class: ClassName=Top Level Member=Component J3 95503-6891

@@ -1,0 +1,98 @@
+Add Component: Footprint Not Found SOT230P700X180-4N
+Added Component: Designator=IC2(SOT95P275X110-6N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "NUD3124DMT1G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/nud3124dmt1g/on-semiconductor?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.onsemi.com/pub/Collateral/NUD3124-D.PDF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "onsemi"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "NUD3124DMT1G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "863-NUD3124DMT1G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/onsemi/NUD3124DMT1G?qs=ZXBb0xZ9WeDtXMbpPTBW4g%3D%3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Testing Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Testing Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=IC3(SOT95P275X110-6N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "NUD3124DMT1G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/nud3124dmt1g/on-semiconductor?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.onsemi.com/pub/Collateral/NUD3124-D.PDF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "onsemi"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "NUD3124DMT1G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "863-NUD3124DMT1G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/onsemi/NUD3124DMT1G?qs=ZXBb0xZ9WeDtXMbpPTBW4g%3D%3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Testing Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Testing Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=IC4(SOT95P275X110-6N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "NUD3124DMT1G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/nud3124dmt1g/on-semiconductor?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.onsemi.com/pub/Collateral/NUD3124-D.PDF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "onsemi"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "NUD3124DMT1G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "863-NUD3124DMT1G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/onsemi/NUD3124DMT1G?qs=ZXBb0xZ9WeDtXMbpPTBW4g%3D%3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Testing Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Testing Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=IC5(SOT95P275X110-6N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "NUD3124DMT1G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/nud3124dmt1g/on-semiconductor?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.onsemi.com/pub/Collateral/NUD3124-D.PDF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "onsemi"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "NUD3124DMT1G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "863-NUD3124DMT1G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/onsemi/NUD3124DMT1G?qs=ZXBb0xZ9WeDtXMbpPTBW4g%3D%3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Testing Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Testing Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add Component: Footprint Not Found 95503-6891
+Add Component: Footprint Not Found 95503-6891
+Add Pin To Net: Unknown Pin: Pin IC1-1
+Add Pin To Net: Unknown Pin: Pin IC1-2
+Add Pin To Net: Unknown Pin: Pin IC1-3
+Add Pin To Net: Unknown Pin: Pin IC1-4
+Added Pin To Net: NetName=GND Pin=IC2-1
+Added Pin To Net: NetName=S1C Pin=IC2-2
+Added Pin To Net: NetName=S2G Pin=IC2-3
+Added Pin To Net: NetName=GND Pin=IC2-4
+Added Pin To Net: NetName=S2C Pin=IC2-5
+Added Pin To Net: NetName=S1G Pin=IC2-6
+Added Pin To Net: NetName=GND Pin=IC3-1
+Added Pin To Net: NetName=S3C Pin=IC3-2
+Added Pin To Net: NetName=S4G Pin=IC3-3
+Added Pin To Net: NetName=GND Pin=IC3-4
+Added Pin To Net: NetName=S4C Pin=IC3-5
+Added Pin To Net: NetName=S3G Pin=IC3-6
+Added Pin To Net: NetName=GND Pin=IC4-1
+Added Pin To Net: NetName=S5C Pin=IC4-2
+Added Pin To Net: NetName=S6G Pin=IC4-3
+Added Pin To Net: NetName=GND Pin=IC4-4
+Added Pin To Net: NetName=S6C Pin=IC4-5
+Added Pin To Net: NetName=S5G Pin=IC4-6
+Added Pin To Net: NetName=GND Pin=IC5-1
+Added Pin To Net: NetName=S7C Pin=IC5-2
+Added Pin To Net: NetName=S8G Pin=IC5-3
+Added Pin To Net: NetName=GND Pin=IC5-4
+Added Pin To Net: NetName=S8C Pin=IC5-5
+Added Pin To Net: NetName=S7G Pin=IC5-6
+Add Pin To Net: Unknown Pin: Pin J3-1
+Add Pin To Net: Unknown Pin: Pin J3-2
+Add Pin To Net: Unknown Pin: Pin J3-3
+Add Pin To Net: Unknown Pin: Pin J3-4
+Add Pin To Net: Unknown Pin: Pin J3-5
+Add Pin To Net: Unknown Pin: Pin J3-6
+Add Pin To Net: Unknown Pin: Pin J3-7
+Add Pin To Net: Unknown Pin: Pin J3-8
+Add Pin To Net: Unknown Pin: Pin J4-1
+Add Pin To Net: Unknown Pin: Pin J4-2
+Add Pin To Net: Unknown Pin: Pin J4-3
+Add Pin To Net: Unknown Pin: Pin J4-4
+Add Pin To Net: Unknown Pin: Pin J4-5
+Add Pin To Net: Unknown Pin: Pin J4-6
+Add Pin To Net: Unknown Pin: Pin J4-7
+Add Pin To Net: Unknown Pin: Pin J4-8
+Add Class Member: Failed to add class member : Component IC1 AZ1117CH2-5.0TRG1
+Added Member To Class: ClassName=U_Pneumatics Member=Component IC2 NUD3124DMT1G
+Added Member To Class: ClassName=U_Pneumatics Member=Component IC3 NUD3124DMT1G
+Added Member To Class: ClassName=U_Pneumatics Member=Component IC4 NUD3124DMT1G
+Added Member To Class: ClassName=U_Pneumatics Member=Component IC5 NUD3124DMT1G
+Add Class Member: Failed to add class member : Component J3 95503-6891
+Add Class Member: Failed to add class member : Component J4 95503-6891

@@ -1,0 +1,121 @@
+Added Component: Designator=?(TEENSY41)
+Add component (AddParameter): Name = "Core Architecture"; Value = "ARM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Design Item ID"; Value = "TEENSY41"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "TEENSY41"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Evaluation Kit"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "teensy"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "TEENSY41"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "i.MX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "teensy.SCHLIB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "TEENSY41"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found SOT230P700X180-4N
+Add Component: Footprint Not Found SOT95P275X110-6N
+Add Component: Footprint Not Found SOT95P275X110-6N
+Add Component: Footprint Not Found SOT95P275X110-6N
+Add Component: Footprint Not Found SOT95P275X110-6N
+Added Component: Designator=J1(95503-6451-Footprint-1)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = "TELECOM AND DATACOM CONNECTOR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Board"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J2(95503-6451-Footprint-1)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = "TELECOM AND DATACOM CONNECTOR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Board"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add Component: Footprint Not Found 95503-6891
+Add Component: Footprint Not Found 95503-6891
+Added Pin To Net: NetName=RX Pin=?-0-RX1/CS1/CRX2
+Added Pin To Net: NetName=TX Pin=?-1-TX1/MISO1/CTX2
+Added Pin To Net: NetName=SCL Pin=?-16-A2/RX4/SCL1
+Added Pin To Net: NetName=SDA Pin=?-17-A3/TX4/SDA1
+Added Pin To Net: NetName=S8C Pin=?-25-A11/RX6/SDA2
+Added Pin To Net: NetName=S7C Pin=?-26-A12/MOSI1
+Added Pin To Net: NetName=S6C Pin=?-27-A13/SCK1
+Added Pin To Net: NetName=S5C Pin=?-28-RX7
+Added Pin To Net: NetName=S4C Pin=?-29-TX7
+Added Pin To Net: NetName=S3C Pin=?-30-CRX3
+Added Pin To Net: NetName=S2C Pin=?-31-CTX3
+Added Pin To Net: NetName=S1C Pin=?-32-OUT1B
+Added Pin To Net: NetName=GND Pin=?-GND1
+Added Pin To Net: NetName=GND Pin=?-GND2
+Added Pin To Net: NetName=GND Pin=?-GND3
+Added Pin To Net: NetName=GND Pin=?-GND4
+Added Pin To Net: NetName=GND Pin=?-GND5
+Added Pin To Net: NetName=GND Pin=?-GND6
+Added Pin To Net: NetName=5V Pin=?-VIN
+Add Pin To Net: Unknown Pin: Pin IC1-1
+Add Pin To Net: Unknown Pin: Pin IC1-2
+Add Pin To Net: Unknown Pin: Pin IC1-3
+Add Pin To Net: Unknown Pin: Pin IC1-4
+Add Pin To Net: Unknown Pin: Pin IC2-1
+Add Pin To Net: Unknown Pin: Pin IC2-2
+Add Pin To Net: Unknown Pin: Pin IC2-3
+Add Pin To Net: Unknown Pin: Pin IC2-4
+Add Pin To Net: Unknown Pin: Pin IC2-5
+Add Pin To Net: Unknown Pin: Pin IC2-6
+Add Pin To Net: Unknown Pin: Pin IC3-1
+Add Pin To Net: Unknown Pin: Pin IC3-2
+Add Pin To Net: Unknown Pin: Pin IC3-3
+Add Pin To Net: Unknown Pin: Pin IC3-4
+Add Pin To Net: Unknown Pin: Pin IC3-5
+Add Pin To Net: Unknown Pin: Pin IC3-6
+Add Pin To Net: Unknown Pin: Pin IC4-1
+Add Pin To Net: Unknown Pin: Pin IC4-2
+Add Pin To Net: Unknown Pin: Pin IC4-3
+Add Pin To Net: Unknown Pin: Pin IC4-4
+Add Pin To Net: Unknown Pin: Pin IC4-5
+Add Pin To Net: Unknown Pin: Pin IC4-6
+Add Pin To Net: Unknown Pin: Pin IC5-1
+Add Pin To Net: Unknown Pin: Pin IC5-2
+Add Pin To Net: Unknown Pin: Pin IC5-3
+Add Pin To Net: Unknown Pin: Pin IC5-4
+Add Pin To Net: Unknown Pin: Pin IC5-5
+Add Pin To Net: Unknown Pin: Pin IC5-6
+Added Pin To Net: NetName=RA Pin=J1-1
+Added Pin To Net: NetName=RB Pin=J1-2
+Added Pin To Net: NetName=GND Pin=J1-3
+Added Pin To Net: NetName=VBat Pin=J1-4
+Added Pin To Net: NetName=TA Pin=J2-1
+Added Pin To Net: NetName=TB Pin=J2-2
+Added Pin To Net: NetName=GND Pin=J2-3
+Added Pin To Net: NetName=VBat Pin=J2-4
+Add Pin To Net: Unknown Pin: Pin J3-1
+Add Pin To Net: Unknown Pin: Pin J3-2
+Add Pin To Net: Unknown Pin: Pin J3-3
+Add Pin To Net: Unknown Pin: Pin J3-4
+Add Pin To Net: Unknown Pin: Pin J3-5
+Add Pin To Net: Unknown Pin: Pin J3-6
+Add Pin To Net: Unknown Pin: Pin J3-7
+Add Pin To Net: Unknown Pin: Pin J3-8
+Add Pin To Net: Unknown Pin: Pin J4-1
+Add Pin To Net: Unknown Pin: Pin J4-2
+Add Pin To Net: Unknown Pin: Pin J4-3
+Add Pin To Net: Unknown Pin: Pin J4-4
+Add Pin To Net: Unknown Pin: Pin J4-5
+Add Pin To Net: Unknown Pin: Pin J4-6
+Add Pin To Net: Unknown Pin: Pin J4-7
+Add Pin To Net: Unknown Pin: Pin J4-8
+Added Member To Class: ClassName=Top Level Member=Component ? TEENSY41
+Add Class Member: Failed to add class member : Component IC1 AZ1117CH2-5.0TRG1
+Add Class Member: Failed to add class member : Component IC2 NUD3124DMT1G
+Add Class Member: Failed to add class member : Component IC3 NUD3124DMT1G
+Add Class Member: Failed to add class member : Component IC4 NUD3124DMT1G
+Add Class Member: Failed to add class member : Component IC5 NUD3124DMT1G
+Added Member To Class: ClassName=Top Level Member=Component J1 95503-6451
+Added Member To Class: ClassName=Top Level Member=Component J2 95503-6451
+Add Class Member: Failed to add class member : Component J3 95503-6891
+Add Class Member: Failed to add class member : Component J4 95503-6891
