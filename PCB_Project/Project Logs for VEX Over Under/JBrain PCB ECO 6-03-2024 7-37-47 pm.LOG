@@ -1,0 +1,12 @@
+Added Component: Designator=R1(RESC3216X70X40LL20T20)
+Add component (AddParameter): Name = "Manufacturer"; Value = "KOA Speer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RK73B2BTTD222J"; VariantName = "[No Variations]"
+Added Component: Designator=R2(RESC3216X70X40LL20T20)
+Add component (AddParameter): Name = "Manufacturer"; Value = "KOA Speer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RK73B2BTTD222J"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=SCL Pin=R1-1
+Added Pin To Net: NetName=3V3 Pin=R1-2
+Added Pin To Net: NetName=SDA Pin=R2-1
+Added Pin To Net: NetName=3V3 Pin=R2-2
+Added Member To Class: ClassName=U_Gyroscope Member=Component R1 RK73B2BTTD222J
+Added Member To Class: ClassName=U_Gyroscope Member=Component R2 RK73B2BTTD222J
