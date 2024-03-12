@@ -1,0 +1,8 @@
+Change Component Designator: OldDesignator=RN2 NewDesignator=RN3
+Change Component Designator: OldDesignator=RN3 NewDesignator=RN5
+Change Component Designator: OldDesignator=RN4 NewDesignator=RN2
+Change Component Designator: OldDesignator=RN5 NewDesignator=RN4
+Change Net Name : Old Net Name=NetRN2_5 New Net Name=NetRN3_5
+Change Net Name : Old Net Name=NetRN3_5 New Net Name=NetRN5_5
+Add Net: Net with name "5V" already exists
+Added Member To Class: ClassName=U_Encoders Member=Component RN5 EXB-38V132JV

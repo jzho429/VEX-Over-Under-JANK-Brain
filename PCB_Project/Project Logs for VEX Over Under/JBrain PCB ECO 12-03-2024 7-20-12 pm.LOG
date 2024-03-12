@@ -1,0 +1,9 @@
+Change Component Designator: OldDesignator=RN1 NewDesignator=RN3
+Change Component Designator: OldDesignator=RN2 NewDesignator=RN1
+Change Component Designator: OldDesignator=RN3 NewDesignator=RN6
+Change Component Designator: OldDesignator=RN5 NewDesignator=RN2
+Change Component Designator: OldDesignator=RN6 NewDesignator=RN5
+Change Net Name : Old Net Name=NetRN1_5 New Net Name=NetRN3_5
+Change Net Name : Old Net Name=NetRN2_5 New Net Name=NetRN1_5
+Change Net Name : Old Net Name=NetRN5_5 New Net Name=NetRN2_5
+Add Net: Net with name "5V" already exists

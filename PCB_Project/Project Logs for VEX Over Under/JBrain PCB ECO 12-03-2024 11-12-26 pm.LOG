@@ -1,0 +1,4 @@
+Change Component Designator: OldDesignator=R? NewDesignator=R1
+Added Pin To Net: NetName=5V Pin=P1-4
+Added Pin To Net: NetName=5V Pin=P2-4
+Added Pin To Net: NetName=5V Pin=P3-4

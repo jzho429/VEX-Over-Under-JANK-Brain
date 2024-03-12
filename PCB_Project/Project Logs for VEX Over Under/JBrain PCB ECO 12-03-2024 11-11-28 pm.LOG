@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=3V3 Pin=R1-2
+Removed Pin From Net: NetName=3V3 Pin=R1-2
+Added Component: Designator=R?(RESC3216X70X40LL20T20)
+Add component (AddParameter): Name = "Manufacturer"; Value = "KOA Speer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RK73B2BTTD222J"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=SCL Pin=R?-1
+Added Pin To Net: NetName=3V3 Pin=R?-2
+Add Net: Net with name "5V" already exists
+Added Member To Class: ClassName=U_Gyroscope Member=Component R2 RK73B2BTTD222J
+Added Member To Class: ClassName=U_RS485 Member=Component R4 RK73H2BTTD4701F
+Added Member To Class: ClassName=U_RS485 Member=Component R8 RK73B2BTTD222J
+Added Member To Class: ClassName=U_RS485 Member=Component R10 CR1206-FX-1300ELF
+Added Member To Class: ClassName=U_RS485 Member=Component R11 CR1206-FX-1300ELF
+Added Member To Class: ClassName=U_Gyroscope Member=Component R? RK73B2BTTD222J

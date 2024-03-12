@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=5V Pin=J?-2
+Removed Pin From Net: NetName=GND Pin=J?-5
+Removed Member From Class: ClassName=Top Level Member=J?
+Change Component Footprint: Designator=U3 Old Footprint=Diodes_SOT26_SC74R_MFG New Footprint=Diodes_SOT26_SC74R_MFG
+Change Component Footprint: Designator=U5 Old Footprint=Diodes_SOT26_SC74R_MFG New Footprint=Diodes_SOT26_SC74R_MFG
+Change Component Footprint: Designator=D1 Old Footprint=WL-SMCW_1206_150120xx75000 New Footprint=WL-SMCW_1206_150120xx75000
+Change Component Footprint: Designator=D2 Old Footprint=WL-SMCW_1206_150120xx75000 New Footprint=WL-SMCW_1206_150120xx75000
+Change Component Designator: OldDesignator=RN? NewDesignator=RN1
+Change Component Designator: OldDesignator=RN? NewDesignator=RN2
+Added Pin To Net: NetName=GND Pin=RN1-4
+Added Pin To Net: NetName=NetLabel24 Pin=RN1-6
+Change Net Name : Old Net Name=NetRN?_2 New Net Name=NetRN1_5
+Added Member To Class: ClassName=Top Level Member=Component RN2 CAT16-4751F4LF

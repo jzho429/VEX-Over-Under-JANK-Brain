@@ -1,0 +1,6 @@
+Added Component: Designator=R?(RESC3216X70X40LL20T20)
+Add component (AddParameter): Name = "Manufacturer"; Value = "KOA Speer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RK73B2BTTD222J"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin R1-1
+Add Net: Net with name "5V" already exists
+Added Member To Class: ClassName=U_Gyroscope Member=Component R? RK73B2BTTD222J

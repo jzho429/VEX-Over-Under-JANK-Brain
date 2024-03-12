@@ -1,0 +1,102 @@
+Removed Pin From Net: NetName=GND Pin=R6-1
+Removed Pin From Net: NetName=GND Pin=RN2-1
+Removed Pin From Net: NetName=NetRN1_5 Pin=RN2-2
+Removed Pin From Net: NetName=GND Pin=RN2-3
+Removed Pin From Net: NetName=NetLabel24 Pin=RN2-4
+Removed Pin From Net: NetName=GND Pin=RN2-5
+Removed Pin From Net: NetName=NetLabel23 Pin=RN2-6
+Removed Pin From Net: NetName=GND Pin=RN2-7
+Removed Member From Class: ClassName=Top Level Member=RN2
+Change Component Footprint: Designator=RN2 Old Footprint=CAPCAV80P155X320X60-8L New Footprint=EXB38V132JV
+Change Component Footprint: Designator=R6 Old Footprint=RESC0603X26X15NL03T05 New Footprint=RESC3216X70X40NL20T20
+Change Component Comment : Designator=RN2 Old Comment=CAT16-4751F4LF New Comment=EXB-38V132JV
+Change Component Comment : Designator=R6 Old Comment=Resistor New Comment=RK73H2BTTD4701F
+Change Managed Component Library Link : Designator=R6 Old VaultGUID=B902D2E3-19FA-4FDA-AD8A-B9D772404735 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=464bc95b-aed5-4281-8ada-6a40b163a223 New ItemGUID=33974F99-44D6-40DC-82C4-E28286BFDB62 Old RevisionGUID=d56db5c0-4006-411b-bd59-3300b33de77c New RevisionGUID=D5C7F319-E296-466B-8C57-3D4D19757509
+Change component parameters: Designator = "R6" ("R6"); Footprint = "RESC0603X26X15NL03T05"; UniqueID = "\VUGXEUPQ\PNINHGWV" ("\VUGXEUPQ\PNINHGWV")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "KOA Speer"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "RK73H2BTTD4701F"; VariantName = "[No Variations]"
+Change component parameters: Designator = "RN2" ("RN2"); Footprint = "CAPCAV80P155X320X60-8L"; UniqueID = "\ZSYLXSKS\XOOOQFAR" ("\ZSYLXSKS\XOOOQFAR")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.6mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Panasonic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "EXB-38V132JV"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "667-EXB-38V132JV"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Panasonic/EXB-38V132JV?qs=WwqriLBepZuuySSdwYXZFg%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=RN3(CAPCAV80P155X320X60-8L)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.bourns.com/docs/Product-Datasheets/cat16-j.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Bourns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CAT16-4751F4LF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "652-CAT16-4751F4LF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Bourns/CAT16-4751F4LF?qs=vP03yYafZdFfyS1KGGbPOQ%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=RN4(CAPCAV80P155X320X60-8L)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.bourns.com/docs/Product-Datasheets/cat16-j.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Bourns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CAT16-4751F4LF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "652-CAT16-4751F4LF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Bourns/CAT16-4751F4LF?qs=vP03yYafZdFfyS1KGGbPOQ%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=RN5(EXB38V132JV)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "EXB-38V132JV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "667-EXB-38V132JV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Panasonic/EXB-38V132JV?qs=WwqriLBepZuuySSdwYXZFg%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=RN6(CAPCAV80P155X320X60-8L)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.bourns.com/docs/Product-Datasheets/cat16-j.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Bourns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CAT16-4751F4LF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "652-CAT16-4751F4LF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Bourns/CAT16-4751F4LF?qs=vP03yYafZdFfyS1KGGbPOQ%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=R6-2
+Added Pin To Net: NetName=GND Pin=RN2-4
+Added Pin To Net: NetName=NetLabel24 Pin=RN2-6
+Added Pin To Net: NetName=NetLabel23 Pin=RN2-7
+Added Pin To Net: NetName=GND Pin=RN3-1
+Added Pin To Net: NetName=NetRN1_5 Pin=RN3-2
+Added Pin To Net: NetName=GND Pin=RN3-3
+Added Pin To Net: NetName=NetLabel24 Pin=RN3-4
+Added Pin To Net: NetName=GND Pin=RN3-5
+Added Pin To Net: NetName=NetLabel23 Pin=RN3-6
+Added Pin To Net: NetName=GND Pin=RN3-7
+Added Pin To Net: NetName=NetLabel22 Pin=RN3-8
+Added Pin To Net: NetName=GND Pin=RN4-1
+Added Pin To Net: NetName=GND Pin=RN4-3
+Added Pin To Net: NetName=NetLabel24 Pin=RN4-4
+Added Pin To Net: NetName=GND Pin=RN4-5
+Added Pin To Net: NetName=NetLabel23 Pin=RN4-6
+Added Pin To Net: NetName=GND Pin=RN4-7
+Added Pin To Net: NetName=NetLabel22 Pin=RN4-8
+Added Pin To Net: NetName=GND Pin=RN5-4
+Added Pin To Net: NetName=NetLabel24 Pin=RN5-6
+Added Pin To Net: NetName=NetLabel23 Pin=RN5-7
+Added Pin To Net: NetName=NetLabel22 Pin=RN5-8
+Added Pin To Net: NetName=GND Pin=RN6-1
+Added Pin To Net: NetName=GND Pin=RN6-3
+Added Pin To Net: NetName=NetLabel24 Pin=RN6-4
+Added Pin To Net: NetName=GND Pin=RN6-5
+Added Pin To Net: NetName=NetLabel23 Pin=RN6-6
+Added Pin To Net: NetName=GND Pin=RN6-7
+Added Pin To Net: NetName=NetLabel22 Pin=RN6-8
+Added Pin To Net: NetName=NetR6_1 Pin=R6-1
+Added Pin To Net: NetName=NetR6_1 Pin=U2-4
+Added Net: Name=NetR6_1
+Added Pin To Net: NetName=NetRN2_5 Pin=RN2-5
+Added Pin To Net: NetName=NetRN2_5 Pin=RN4-2
+Added Net: Name=NetRN2_5
+Added Pin To Net: NetName=NetRN5_5 Pin=RN5-5
+Added Pin To Net: NetName=NetRN5_5 Pin=RN6-2
+Added Net: Name=NetRN5_5
+Added Class: Name=U_Encoders

@@ -1,0 +1,238 @@
+Removed Pin From Net: NetName=NetLabel24 Pin=RN2-6
+Removed Pin From Net: NetName=NetLabel24 Pin=RN4-4
+Added Component: Designator=P1(TECO-640456-5)
+Add component (AddParameter): Name = "Agency Approvals"; Value = "CSA,UL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Angle"; Value = "Straight"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Brand/Series"; Value = "MTA-100Series"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Color"; Value = "White"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Color, Housing"; Value = "White"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = "MTA-100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Centerline Spacing"; Value = "0.100
+
+in."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Mating Area Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Shape"; Value = "Square"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Termination Area Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current, Rating"; Value = "5
+
+A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://sigma.octopart.com/77881742/technical_drawing/TE-Connectivity-640456-5.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. W3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Flammability Rating"; Value = "UL94V-0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length, Overall"; Value = "0.5
+
+""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length, Pin"; Value = "0.14
+
+""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length, Terminal Post"; Value = "0.14
+
+in."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.te.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material, Contact"; Value = "CopperAlloy"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material, Housing"; Value = "Polyester"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount Angle"; Value = "Vertical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Hole Size"; Value = "0.04
+
+""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "PCMount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Contacts"; Value = "5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "Male Header, Pitch 2.54 mm, 1 x 5 Position, Height 10.03 mm, Tail Length 3.56 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "THD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Spacing"; Value = "0.1
+
+""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Primary Type"; Value = "InterconnectSystem"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size, Post"; Value = "0.025
+
+in."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Special Features"; Value = "Pinstrip"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Standards"; Value = "RoHSCompliant,ELVCompliant,UL94V-0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature, Operating"; Value = "-55to+105
+
+°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "PCBPlug"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage, Rating"; Value = "250
+
+V"; VariantName = "[No Variations]"
+Added Component: Designator=P2(TECO-640456-5)
+Add component (AddParameter): Name = "Agency Approvals"; Value = "CSA,UL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Angle"; Value = "Straight"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Brand/Series"; Value = "MTA-100Series"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Color"; Value = "White"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Color, Housing"; Value = "White"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = "MTA-100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Centerline Spacing"; Value = "0.100
+
+in."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Mating Area Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Shape"; Value = "Square"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Termination Area Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current, Rating"; Value = "5
+
+A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://sigma.octopart.com/77881742/technical_drawing/TE-Connectivity-640456-5.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. W3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Flammability Rating"; Value = "UL94V-0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length, Overall"; Value = "0.5
+
+""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length, Pin"; Value = "0.14
+
+""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length, Terminal Post"; Value = "0.14
+
+in."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.te.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material, Contact"; Value = "CopperAlloy"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material, Housing"; Value = "Polyester"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount Angle"; Value = "Vertical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Hole Size"; Value = "0.04
+
+""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "PCMount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Contacts"; Value = "5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "Male Header, Pitch 2.54 mm, 1 x 5 Position, Height 10.03 mm, Tail Length 3.56 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "THD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Spacing"; Value = "0.1
+
+""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Primary Type"; Value = "InterconnectSystem"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size, Post"; Value = "0.025
+
+in."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Special Features"; Value = "Pinstrip"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Standards"; Value = "RoHSCompliant,ELVCompliant,UL94V-0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature, Operating"; Value = "-55to+105
+
+°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "PCBPlug"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage, Rating"; Value = "250
+
+V"; VariantName = "[No Variations]"
+Added Component: Designator=P3(TECO-640456-5)
+Add component (AddParameter): Name = "Agency Approvals"; Value = "CSA,UL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Angle"; Value = "Straight"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Brand/Series"; Value = "MTA-100Series"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Color"; Value = "White"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Color, Housing"; Value = "White"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = "MTA-100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Centerline Spacing"; Value = "0.100
+
+in."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Mating Area Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Shape"; Value = "Square"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Termination Area Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current, Rating"; Value = "5
+
+A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://sigma.octopart.com/77881742/technical_drawing/TE-Connectivity-640456-5.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. W3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Flammability Rating"; Value = "UL94V-0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length, Overall"; Value = "0.5
+
+""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length, Pin"; Value = "0.14
+
+""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length, Terminal Post"; Value = "0.14
+
+in."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.te.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material, Contact"; Value = "CopperAlloy"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material, Housing"; Value = "Polyester"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount Angle"; Value = "Vertical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Hole Size"; Value = "0.04
+
+""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "PCMount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Contacts"; Value = "5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "Male Header, Pitch 2.54 mm, 1 x 5 Position, Height 10.03 mm, Tail Length 3.56 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "THD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Spacing"; Value = "0.1
+
+""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Primary Type"; Value = "InterconnectSystem"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size, Post"; Value = "0.025
+
+in."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Special Features"; Value = "Pinstrip"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Standards"; Value = "RoHSCompliant,ELVCompliant,UL94V-0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature, Operating"; Value = "-55to+105
+
+°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "PCBPlug"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage, Rating"; Value = "250
+
+V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=P1-1
+Added Pin To Net: NetName=GND Pin=P2-1
+Added Pin To Net: NetName=GND Pin=P3-1
+Change Net Name : Old Net Name=NetLabel24 New Net Name=XRight
+Add Net: Net with name "5V" already exists
+Added Pin To Net: NetName=ALeft Pin=RN2-7
+Added Pin To Net: NetName=ALeft Pin=RN4-6
+Added Net: Name=ALeft
+Added Pin To Net: NetName=AMiddle Pin=RN5-7
+Added Pin To Net: NetName=AMiddle Pin=RN6-6
+Added Net: Name=AMiddle
+Added Pin To Net: NetName=ARight Pin=RN1-7
+Added Pin To Net: NetName=ARight Pin=RN3-6
+Added Net: Name=ARight
+Added Pin To Net: NetName=BLeft Pin=RN2-8
+Added Pin To Net: NetName=BLeft Pin=RN4-8
+Added Net: Name=BLeft
+Added Pin To Net: NetName=BMiddle Pin=RN5-8
+Added Pin To Net: NetName=BMiddle Pin=RN6-8
+Added Net: Name=BMiddle
+Added Pin To Net: NetName=BRight Pin=RN1-8
+Added Pin To Net: NetName=BRight Pin=RN3-8
+Added Net: Name=BRight
+Added Pin To Net: NetName=NetP1_2 Pin=P1-2
+Added Pin To Net: NetName=NetP1_2 Pin=RN2-3
+Added Net: Name=NetP1_2
+Added Pin To Net: NetName=NetP1_3 Pin=P1-3
+Added Pin To Net: NetName=NetP1_3 Pin=RN2-2
+Added Net: Name=NetP1_3
+Added Pin To Net: NetName=NetP1_5 Pin=P1-5
+Added Pin To Net: NetName=NetP1_5 Pin=RN2-1
+Added Net: Name=NetP1_5
+Added Pin To Net: NetName=NetP2_2 Pin=P2-2
+Added Pin To Net: NetName=NetP2_2 Pin=RN5-3
+Added Net: Name=NetP2_2
+Added Pin To Net: NetName=NetP2_3 Pin=P2-3
+Added Pin To Net: NetName=NetP2_3 Pin=RN5-2
+Added Net: Name=NetP2_3
+Added Pin To Net: NetName=NetP2_5 Pin=P2-5
+Added Pin To Net: NetName=NetP2_5 Pin=RN5-1
+Added Net: Name=NetP2_5
+Added Pin To Net: NetName=NetP3_2 Pin=P3-2
+Added Pin To Net: NetName=NetP3_2 Pin=RN1-3
+Added Net: Name=NetP3_2
+Added Pin To Net: NetName=NetP3_3 Pin=P3-3
+Added Pin To Net: NetName=NetP3_3 Pin=RN1-2
+Added Net: Name=NetP3_3
+Added Pin To Net: NetName=NetP3_5 Pin=P3-5
+Added Pin To Net: NetName=NetP3_5 Pin=RN1-1
+Added Net: Name=NetP3_5
+Added Pin To Net: NetName=XLeft Pin=RN2-6
+Added Pin To Net: NetName=XLeft Pin=RN4-4
+Added Net: Name=XLeft
+Added Member To Class: ClassName=U_Encoders Member=Component P1 640456-5
+Added Member To Class: ClassName=U_Encoders Member=Component P2 640456-5
+Added Member To Class: ClassName=U_Encoders Member=Component P3 640456-5

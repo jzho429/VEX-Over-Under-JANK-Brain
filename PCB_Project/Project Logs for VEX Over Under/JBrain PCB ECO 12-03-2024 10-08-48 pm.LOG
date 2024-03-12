@@ -1,0 +1,22 @@
+Change Component Designator: OldDesignator=1 NewDesignator=U1
+Change Component Designator: OldDesignator=2 NewDesignator=C1
+Change Component Designator: OldDesignator=3 NewDesignator=C2
+Change Component Designator: OldDesignator=C1 NewDesignator=C3
+Change Component Designator: OldDesignator=C2 NewDesignator=C4
+Change Component Designator: OldDesignator=C3 NewDesignator=C5
+Change Component Designator: OldDesignator=C4 NewDesignator=C6
+Change Component Designator: OldDesignator=C5 NewDesignator=C7
+Change Component Designator: OldDesignator=C6 NewDesignator=C8
+Change Component Designator: OldDesignator=C7 NewDesignator=C9
+Change Component Designator: OldDesignator=U1 NewDesignator=U2
+Change Component Designator: OldDesignator=U2 NewDesignator=U3
+Change Component Designator: OldDesignator=U3 NewDesignator=U4
+Change Component Designator: OldDesignator=U4 NewDesignator=U5
+Change Component Designator: OldDesignator=U5 NewDesignator=U6
+Change Net Name : Old Net Name=NetC3_2 New Net Name=NetC5_2
+Change Net Name : Old Net Name=NetC4_1 New Net Name=NetC6_1
+Change Net Name : Old Net Name=NetC5_1 New Net Name=NetC7_1
+Add Net: Net with name "5V" already exists
+Added Member To Class: ClassName=U_RS485 Member=Component R5 RK73H2BTTD4701F
+Added Member To Class: ClassName=U_RS485 Member=Component R9 CRGCQ1206F33R
+Added Member To Class: ClassName=U_RS485 Member=Component U6 AL5802-7
