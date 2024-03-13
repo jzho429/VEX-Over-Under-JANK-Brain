@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=XRight Pin=RN3-6
+Removed Pin From Net: NetName=XRight Pin=RN4-4
+Added Pin To Net: NetName=XMiddle Pin=RN3-6
+Added Pin To Net: NetName=XMiddle Pin=RN4-4
+Added Net: Name=XMiddle

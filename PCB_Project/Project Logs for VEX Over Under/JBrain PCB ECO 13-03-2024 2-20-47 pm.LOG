@@ -1,0 +1,12 @@
+Change Component Designator: OldDesignator=Left NewDesignator=P1
+Change Component Designator: OldDesignator=Mid NewDesignator=P2
+Change Component Designator: OldDesignator=Right NewDesignator=P3
+Added Pin To Net: NetName=ARight Pin=U1-2-OUT2
+Added Pin To Net: NetName=BRight Pin=U1-3-LRCLK2
+Added Pin To Net: NetName=XRight Pin=U1-4-BCLK2
+Added Pin To Net: NetName=AMiddle Pin=U1-5-IN2
+Added Pin To Net: NetName=BMiddle Pin=U1-6-OUT1D
+Added Pin To Net: NetName=XMiddle Pin=U1-7-RX2/OUT1A
+Added Pin To Net: NetName=ALeft Pin=U1-8-TX2/IN1
+Added Pin To Net: NetName=BLeft Pin=U1-9-OUT1C
+Added Pin To Net: NetName=XLeft Pin=U1-10-CS\MQSR

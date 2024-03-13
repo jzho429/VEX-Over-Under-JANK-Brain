@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=S4C Pin=U1-29-TX7
+Removed Pin From Net: NetName=S3C Pin=U1-30-CRX3
+Removed Pin From Net: NetName=S2C Pin=U1-31-CTX3
+Removed Pin From Net: NetName=S1C Pin=U1-32-OUT1B
+Added Pin To Net: NetName=S2C Pin=U1-29-TX7
+Added Pin To Net: NetName=S1C Pin=U1-30-CRX3
+Added Pin To Net: NetName=S4C Pin=U1-31-CTX3
+Added Pin To Net: NetName=S3C Pin=U1-32-OUT1B
+Added Member To Class: ClassName=U_Gyroscope Member=Component C5 C1206C104M5RACTU
