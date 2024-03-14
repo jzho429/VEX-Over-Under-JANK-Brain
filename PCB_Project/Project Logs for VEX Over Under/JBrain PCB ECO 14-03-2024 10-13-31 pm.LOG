@@ -1,0 +1,45 @@
+Removed Pin From Net: NetName=XRight Pin=RN6-2
+Removed Pin From Net: NetName=NetRN5_5 Pin=RN6-2
+Added Component: Designator=U1(TEENSY41)
+Add component (AddParameter): Name = "Core Architecture"; Value = "ARM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Design Item ID"; Value = "TEENSY41"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "TEENSY41"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Evaluation Kit"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "teensy"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "TEENSY41"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "i.MX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "teensy.SCHLIB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "TEENSY41"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin RN6-4
+Added Pin To Net: NetName=RX Pin=U1-0-RX1/CS1/CRX2
+Added Pin To Net: NetName=TX Pin=U1-1-TX1/MISO1/CTX2
+Added Pin To Net: NetName=ARight Pin=U1-2-OUT2
+Added Pin To Net: NetName=BRight Pin=U1-3-LRCLK2
+Added Pin To Net: NetName=3V3 Pin=U1-3V3-1
+Added Pin To Net: NetName=3V3 Pin=U1-3V3-3
+Added Pin To Net: NetName=XRight Pin=U1-4-BCLK2
+Added Pin To Net: NetName=AMiddle Pin=U1-5-IN2
+Added Pin To Net: NetName=BMiddle Pin=U1-6-OUT1D
+Added Pin To Net: NetName=XMiddle Pin=U1-7-RX2/OUT1A
+Added Pin To Net: NetName=ALeft Pin=U1-8-TX2/IN1
+Added Pin To Net: NetName=BLeft Pin=U1-9-OUT1C
+Added Pin To Net: NetName=XLeft Pin=U1-10-CS\MQSR
+Added Pin To Net: NetName=SCL Pin=U1-16-A2/RX4/SCL1
+Added Pin To Net: NetName=SDA Pin=U1-17-A3/TX4/SDA1
+Added Pin To Net: NetName=S6C Pin=U1-25-A11/RX6/SDA2
+Added Pin To Net: NetName=S5C Pin=U1-26-A12/MOSI1
+Added Pin To Net: NetName=S8C Pin=U1-27-A13/SCK1
+Added Pin To Net: NetName=S7C Pin=U1-28-RX7
+Added Pin To Net: NetName=S2C Pin=U1-29-TX7
+Added Pin To Net: NetName=S1C Pin=U1-30-CRX3
+Added Pin To Net: NetName=S4C Pin=U1-31-CTX3
+Added Pin To Net: NetName=S3C Pin=U1-32-OUT1B
+Added Pin To Net: NetName=GND Pin=U1-GND1
+Added Pin To Net: NetName=GND Pin=U1-GND2
+Added Pin To Net: NetName=GND Pin=U1-GND3
+Added Pin To Net: NetName=GND Pin=U1-GND4
+Added Pin To Net: NetName=GND Pin=U1-GND5
+Added Pin To Net: NetName=GND Pin=U1-GND6
+Added Pin To Net: NetName=5V Pin=U1-VIN
+Added Member To Class: ClassName=Top Level Member=Component U1 TEENSY41

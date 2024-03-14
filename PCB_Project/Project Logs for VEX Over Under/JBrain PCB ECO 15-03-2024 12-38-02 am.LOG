@@ -1,0 +1,20 @@
+Added Component: Designator=RN6(CAPCAV80P155X320X60-8L)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.bourns.com/docs/Product-Datasheets/cat16-j.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Bourns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CAT16-4751F4LF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "652-CAT16-4751F4LF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Bourns/CAT16-4751F4LF?qs=vP03yYafZdFfyS1KGGbPOQ%3D%3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Testing Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Testing Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=RN6-1
+Added Pin To Net: NetName=GND Pin=RN6-2
+Added Pin To Net: NetName=GND Pin=RN6-3
+Added Pin To Net: NetName=XRight Pin=RN6-4
+Added Pin To Net: NetName=GND Pin=RN6-5
+Added Pin To Net: NetName=ARight Pin=RN6-6
+Added Pin To Net: NetName=GND Pin=RN6-7
+Added Pin To Net: NetName=BRight Pin=RN6-8
+Added Member To Class: ClassName=U_Encoders Member=Component RN6 CAT16-4751F4LF

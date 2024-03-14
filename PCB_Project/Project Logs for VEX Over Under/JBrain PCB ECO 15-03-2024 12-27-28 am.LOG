@@ -1,0 +1,4 @@
+Change Component DesignItemId : Designator=U1 Old DesignItemId=CMP-007-000001-2 New DesignItemId=CMP-007-000001-3
+Change Component Footprint: Designator=U1 Old Footprint=TEENSY41 New Footprint=TEENSY41
+Change Managed Component Library Link : Designator=U1 Old VaultGUID=A1B8D1FF-5F91-4561-889E-7B8D03C821E8 New VaultGUID=A1B8D1FF-5F91-4561-889E-7B8D03C821E8 Old ItemGUID=93857190-8BDC-47BC-AEC7-CEA52E86BDFA New ItemGUID=93857190-8BDC-47BC-AEC7-CEA52E86BDFA Old RevisionGUID=16fc4483-48bc-4a90-8744-65edcef11b5c New RevisionGUID=d685e883-0d35-4752-9056-6a3d396a7749
+Add Pin To Net: Unknown Pin: Pin RN6-4

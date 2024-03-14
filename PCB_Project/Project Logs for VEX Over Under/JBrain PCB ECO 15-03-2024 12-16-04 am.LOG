@@ -1,0 +1,24 @@
+Change Component DesignItemId : Designator=U1 Old DesignItemId=CMP-007-000001-1 New DesignItemId=CMP-007-000001-2
+Change Component Footprint: Designator=U1 Old Footprint=TEENSY41 New Footprint=TEENSY41
+Change Managed Component Library Link : Designator=U1 Old VaultGUID=A1B8D1FF-5F91-4561-889E-7B8D03C821E8 New VaultGUID=A1B8D1FF-5F91-4561-889E-7B8D03C821E8 Old ItemGUID=93857190-8BDC-47BC-AEC7-CEA52E86BDFA New ItemGUID=93857190-8BDC-47BC-AEC7-CEA52E86BDFA Old RevisionGUID=D3ED4528-5B06-4E6C-B400-35B2795669A0 New RevisionGUID=16fc4483-48bc-4a90-8744-65edcef11b5c
+Change component parameters: Designator = "U1" ("U1"); Footprint = "TEENSY41"; UniqueID = "\MAVOIRTB" ("\MAVOIRTB")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Core Architecture"; Value = "ARM"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Design Item ID"; Value = "TEENSY41"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "TEENSY41"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Evaluation Kit"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "teensy"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Supply Voltage"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Supply Voltage"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "TEENSY41"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "i.MX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Source"; Value = "teensy.SCHLIB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "TEENSY41"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin RN6-4
+Added Member To Class: ClassName=U_Gyroscope Member=Component C5 C1206C104M5RACTU

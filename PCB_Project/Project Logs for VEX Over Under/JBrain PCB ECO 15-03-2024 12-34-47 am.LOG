@@ -1,0 +1,13 @@
+Change Component Library : Designator=RN6 Old Library=* New Library=SamacSys.SchLib
+Change component parameters: Designator = "RN6" ("RN6"); Footprint = "CAPCAV80P155X320X60-8L"; UniqueID = "\ZSYLXSKS\CNFARDFB" ("\ZSYLXSKS\CNFARDFB")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "http://www.bourns.com/docs/Product-Datasheets/cat16-j.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.6mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Bourns"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CAT16-4751F4LF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "652-CAT16-4751F4LF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Bourns/CAT16-4751F4LF?qs=vP03yYafZdFfyS1KGGbPOQ%3D%3D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Testing Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Testing Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin RN6-4

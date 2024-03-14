@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=GND Pin=RN5-4
+Removed Pin From Net: NetName=GND Pin=RN6-1
+Removed Pin From Net: NetName=GND Pin=RN6-3
+Removed Pin From Net: NetName=GND Pin=RN6-5
+Removed Pin From Net: NetName=GND Pin=RN6-7
+Add Pin To Net: Unknown Pin: Pin RN6-4
+Added Pin To Net: NetName=NetRN5_4 Pin=RN5-4
+Added Pin To Net: NetName=NetRN5_4 Pin=RN6-1
+Added Pin To Net: NetName=NetRN5_4 Pin=RN6-3
+Added Pin To Net: NetName=NetRN5_4 Pin=RN6-5
+Added Pin To Net: NetName=NetRN5_4 Pin=RN6-7
+Added Net: Name=NetRN5_4
+Added Rule: Name=Schematic Width Constraint_1
