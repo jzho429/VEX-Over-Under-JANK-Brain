@@ -1,0 +1,22 @@
+Removed Pin From Net: NetName=VBat Pin=S1-1
+Removed Pin From Net: NetName=VRaw Pin=S1-2
+Added Pin To Net: NetName=VBat Pin=S1-2
+Added Pin To Net: NetName=VRaw Pin=S1-3
+Added Rule: Name=Schematic Width Constraint_6
+Added Rule: Name=Schematic Width Constraint_7
+Added Rule: Name=Schematic Width Constraint_8
+Added Rule: Name=Schematic Width Constraint_9
+Added Rule: Name=Schematic Width Constraint_10
+Added Rule: Name=Schematic Width Constraint_11
+Added Rule: Name=Schematic Width Constraint_12
+Added Rule: Name=Schematic Width Constraint_13
+Added Rule: Name=Schematic Width Constraint_15
+Added Rule: Name=Schematic Width Constraint_17
+Added Rule: Name=Schematic Width Constraint_18
+Added Rule: Name=Schematic Width Constraint_19
+Added Rule: Name=Schematic Width Constraint_20
+Added Rule: Name=Schematic Width Constraint_46
+Added Rule: Name=Schematic Width Constraint_47
+Added Rule: Name=Schematic Width Constraint_48
+Added Rule: Name=Schematic Width Constraint_49
+Added Rule: Name=Schematic Width Constraint_50

@@ -1,0 +1,14 @@
+Added Component: Designator=S1(SLW8645475ARAD)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "SLW-864547-5A-RA-D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/slw-864547-5a-ra-d/cui-devices?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.cuidevices.com/product/resource/slw-864547-5a-ra-d.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "4.9mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "CUI Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "SLW-864547-5A-RA-D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "179-SLW-864547-5ARAD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/CUI-Devices/SLW-864547-5A-RA-D?qs=1Kr7Jg1SGW%252Bn%2FarYZIP3WQ%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VRaw Pin=S1-2
+Added Pin To Net: NetName=VBat Pin=S1-3
+Added Pin To Net: NetName=GND Pin=S1-MH1
+Added Pin To Net: NetName=GND Pin=S1-MH2
+Added Member To Class: ClassName=Top Level Member=Component S1 SLW-864547-5A-RA-D

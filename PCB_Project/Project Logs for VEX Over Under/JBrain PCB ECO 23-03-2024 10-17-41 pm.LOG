@@ -1,0 +1,3 @@
+Change Component Designator: OldDesignator=R? NewDesignator=R12
+Change Component Designator: OldDesignator=R? NewDesignator=R13
+Added Member To Class: ClassName=U_RS485 Member=Component R12 RK73H2BTTD1200F

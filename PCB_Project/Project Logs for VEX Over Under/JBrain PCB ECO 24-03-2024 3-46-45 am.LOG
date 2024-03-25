@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=GND Pin=S1-MH1
+Removed Pin From Net: NetName=GND Pin=S1-MH2
+Added Rule: Name=Schematic Width Constraint_4
+Added Rule: Name=Schematic Width Constraint_5
+Added Rule: Name=Schematic Width Constraint_51
+Added Rule: Name=Schematic Width Constraint_52
+Added Rule: Name=Schematic Width Constraint_53
+Added Rule: Name=Schematic Width Constraint_54
+Added Rule: Name=Schematic Width Constraint_55
+Added Rule: Name=Schematic Width Constraint_56
+Added Rule: Name=Schematic Width Constraint_57

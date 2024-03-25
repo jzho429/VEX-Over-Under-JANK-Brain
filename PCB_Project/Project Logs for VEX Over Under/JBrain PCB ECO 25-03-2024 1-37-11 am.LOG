@@ -1,0 +1,35 @@
+Removed Pin From Net: NetName=VRaw Pin=S1-3
+Change Footprint: Footprint Not Found 5MS1S102AM6QES
+Change Component Comment : Designator=S1 Old Comment=SLW-864547-5A-RA-D New Comment=5MS1S102AM6QES
+Change component parameters: Designator = "S1" ("S1"); Footprint = "SLW8645475ARAD"; UniqueID = "\IORVDJLU" ("\IORVDJLU")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://cz.mouser.com/datasheet/2/979/Dailywell_01132020_5M_Series-1708766.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "6.6mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Dailywell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "5MS1S102AM6QES"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "118-5MS1S102AM6QES"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Dailywell/5MS1S102AM6QES?qs=B6kkDfuK7%2FBHVJoQEkyphg%3D%3D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Testing Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Testing Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R14(RESC1608X55N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "RMCF0603FT120R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/rmcf0603ft120r/stackpole-electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Stackpole Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "RMCF0603FT120R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VRaw Pin=S1-1
+Added Member To Class: ClassName=U_RS485 Member=Component R14 RMCF0603FT120R
+Added Rule: Name=Schematic Width Constraint_6
+Added Rule: Name=Schematic Width Constraint_7
+Added Rule: Name=Schematic Width Constraint_8
+Added Rule: Name=Schematic Width Constraint_11
+Added Rule: Name=Schematic Width Constraint_15
+Added Rule: Name=Schematic Width Constraint_17
+Added Rule: Name=Schematic Width Constraint_46
+Added Rule: Name=Schematic Width Constraint_49
+Added Rule: Name=Schematic Width Constraint_50
+Added Rule: Name=Schematic Width Constraint_58

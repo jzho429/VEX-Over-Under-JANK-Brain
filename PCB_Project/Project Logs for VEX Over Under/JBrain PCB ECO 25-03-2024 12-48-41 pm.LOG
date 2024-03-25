@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=3V3 Pin=U2-4
+Added Component: Designator=R14(RESC3126X60X50ML10T20)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RC1210JR-0710KL"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=R14-2
+Added Pin To Net: NetName=NetR14_1 Pin=R14-1
+Added Pin To Net: NetName=NetR14_1 Pin=U2-4
+Added Net: Name=NetR14_1
+Added Member To Class: ClassName=U_Gyroscope Member=Component R14 RC1210JR-0710KL
+Added Rule: Name=Schematic Width Constraint_79

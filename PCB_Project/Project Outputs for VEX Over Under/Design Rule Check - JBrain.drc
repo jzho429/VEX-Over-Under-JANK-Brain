@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\wljas\Documents\Github\VEX-Over-Under-JANK-Brain\PCB_Project\JBrain.PcbDoc
-Date     : 15/03/2024
-Time     : 9:06:09 pm
+Date     : 25/03/2024
+Time     : 1:36:39 pm
 
 Processing Rule : Clearance Constraint (Gap=8mil) (InNamedPolygon('GND Bot Pour')),(All)
 Rule Violations :0
@@ -39,13 +39,64 @@ Rule Violations :0
 Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('5V'))
 Rule Violations :0
 
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('5V'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('5V'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('5V'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
+Rule Violations :0
+
 Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
 Rule Violations :0
 
 Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('5V'))
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=10mil) (Max=10mil) (Preferred=10mil) (All)
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('5V'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('5V'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('5V'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('5V'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('5V'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('5V'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('5V'))
 Rule Violations :0
 
 Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('3V3'))
@@ -81,7 +132,49 @@ Rule Violations :0
 Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('5V'))
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('5V'))
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
 Rule Violations :0
 
 Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('5V'))
@@ -90,31 +183,85 @@ Rule Violations :0
 Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('5V'))
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('5V'))
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('5V'))
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('5V'))
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('5V'))
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('5V'))
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('5V'))
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('5V'))
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('5V'))
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('5V'))
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (InNet('VBat'))
 Rule Violations :0
 
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
@@ -138,10 +285,13 @@ Rule Violations :0
 Processing Rule : Net Antennae (Tolerance=0mil) (All)
 Rule Violations :0
 
+Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
+Rule Violations :0
+
 Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
 Rule Violations :0
 
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:02

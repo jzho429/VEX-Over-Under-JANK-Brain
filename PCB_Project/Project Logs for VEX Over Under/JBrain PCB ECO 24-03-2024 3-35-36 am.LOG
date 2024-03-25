@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=VBat Pin=S1-3
+Added Pin To Net: NetName=VBat Pin=S1-1

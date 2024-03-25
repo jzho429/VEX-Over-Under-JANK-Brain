@@ -1,0 +1,15 @@
+Added Component: Designator=R?(RESC3216X70X40LL20T20)
+Add component (AddParameter): Name = "Manufacturer"; Value = "KOA Speer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RK73H2BTTD1200F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "120R"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC3216X70X40LL20T20)
+Add component (AddParameter): Name = "Manufacturer"; Value = "KOA Speer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RK73H2BTTD1200F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "120R"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=RB Pin=R?-1
+Added Pin To Net: NetName=TB Pin=R?-1
+Added Pin To Net: NetName=RA Pin=R?-2
+Added Pin To Net: NetName=TA Pin=R?-2
+Added Member To Class: ClassName=U_Gyroscope Member=Component C5 C1206C104M5RACTU
+Added Member To Class: ClassName=U_RS485 Member=Component R? RK73H2BTTD1200F
+Added Member To Class: ClassName=U_RS485 Member=Component R? RK73H2BTTD1200F
