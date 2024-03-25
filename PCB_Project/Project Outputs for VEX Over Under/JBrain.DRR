@@ -1,0 +1,23 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: JBrain.PcbDoc   25/03/2024  10:36:24 pm
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : JBrain.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.3mm (12mil)                                             Round             34        PTH        308.12mm (12.13inch)
+T2      0.4mm (16mil)                                             Round             28        PTH        134.91mm (5.31inch)
+T3      0.6mm (24mil)                                             Round             6         PTH        10.00mm (0.39inch)
+T4      0.711mm (28mil)                                           Round             2         PTH        8.58mm (0.34inch)
+T5      0.8mm (31mil)                                             Round             3         PTH        4.00mm (0.16inch)
+T6      1mm (39mil)                                               Round             61        PTH        218.43mm (8.60inch)
+T7      1.27mm (50mil)                                            Round             15        PTH        38.58mm (1.52inch)
+T8      1.66mm (65mil)                                            Round             2         PTH        8.20mm (0.32inch)
+T9      4.1mm (161mil)                                            Round             4         PTH        157.73mm (6.21inch)
+T10     3.25mm (128mil)                                           Round             8         NPTH       54.00mm (2.13inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              163
+
+Total Processing Time (hh:mm:ss) : 00:00:00
