@@ -1,87 +1,89 @@
 #include <Arduino.h>
+
 #include <main.hpp>
 
+#define S1C 30
+#define S2C 29
+#define S3C 32
+#define S4C 31
+#define S5C 26
+#define S6C 25
+#define S7C 28
+#define S8C 27
+
 SerialHandler serialHandler(115200);
-Adafruit_BNO08x bno08x = Adafruit_BNO08x();
+Bno08x gyro;
+V5Data v5Data;
+TeensyData teensyData;
 
-euler_t ypr;
-
-sh2_SensorValue_t sensorValue;
-
-// Top frequency is about 250Hz but this report is more accurate
-sh2_SensorId_t reportType = SH2_ARVR_STABILIZED_RV;
-long reportIntervalUs = 5000;
-
-void setReports(sh2_SensorId_t reportType, long report_interval) {
-  Serial.println("Setting desired reports");
-  if (! bno08x.enableReport(reportType, report_interval)) {
-    Serial.println("Could not enable stabilized remote vector");
-  }
-}
-
-void quaternionToEuler(float qr, float qi, float qj, float qk, euler_t* ypr, bool degrees = true) {
-
-    float sqr = sq(qr);
-    float sqi = sq(qi);
-    float sqj = sq(qj);
-    float sqk = sq(qk);
-
-    ypr->yaw = atan2(2.0 * (qi * qj + qk * qr), (sqi - sqj - sqk + sqr));
-    ypr->pitch = asin(-2.0 * (qi * qk - qj * qr) / (sqi + sqj + sqk + sqr));
-    ypr->roll = atan2(2.0 * (qj * qk + qi * qr), (-sqi - sqj + sqk + sqr));
-
-    if (degrees) {
-      ypr->yaw *= RAD_TO_DEG;
-      ypr->pitch *= RAD_TO_DEG;
-      ypr->roll *= RAD_TO_DEG;
+void updateGyro() {
+    while (true) {
+        gyro.updateGyro();
+        teensyData.gyroHeading = gyro.getEuler().yaw;
+        threads.delay(1);
     }
 }
 
-void quaternionToEulerRV(sh2_RotationVectorWAcc_t* rotational_vector, euler_t* ypr, bool degrees = false) {
-    quaternionToEuler(rotational_vector->real, rotational_vector->i, rotational_vector->j, rotational_vector->k, ypr, degrees);
+void sendSerial() {
+    while (true) {
+        serialHandler.send(&teensyData);
+        threads.delay(1);
+    }
+}
+
+void receiveSerial() {
+    while (true) {
+        serialHandler.receive();
+        v5Data = serialHandler.getV5Data();
+        threads.delay(50);
+    }
 }
 
 void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(115200);
-  while (!Serial){
-    delay(10);
-  }
-  serialHandler.flush();
-  
-  // Try to initialize!
-  if (!bno08x.begin_I2C(BNO08x_I2CADDR_DEFAULT, &Wire1)) {
-  //if (!bno08x.begin_UART(&Serial1)) {  // Requires a device with > 300 byte UART buffer!
-  //if (!bno08x.begin_SPI(BNO08X_CS, BNO08X_INT)) {
-    Serial.println("Failed to find BNO08x chip");
-    while (1) { delay(10); }
-  }
-  Serial.println("BNO08x Found!");
-  setReports(reportType, reportIntervalUs);
-  delay(100); //Let the Gyro settle
-}
+    // put your setup code here, to run once:
+    Serial.begin(115200);
+    while (!Serial) {
+        if (CrashReport) {
+            Serial.print(CrashReport);
+            delay(5000);
+        }
+    }
 
+    serialHandler.flush();
+    setupPneumatics();
+
+    threads.addThread(updateGyro);
+    threads.addThread(updatePneumatics);
+    threads.addThread(sendSerial);
+    threads.addThread(receiveSerial);
+}
 
 void loop() {
-  if (bno08x.wasReset()) {
-    Serial.println("Sensor was reset");
-    setReports(reportType, reportIntervalUs);
-  }
-  
-  if (bno08x.getSensorEvent(&sensorValue)) {
-    // in this demo only one report type will be received depending on FAST_MODE define (above)
+    Serial.print("Disabled: ");
+    Serial.print(v5Data.disabled);
+    Serial.print("\tPistons:");
+    for (int i = 0; i < 6; i++) {
+        Serial.print(v5Data.pistons[i]);
+        Serial.print(", ");
+    }
+    Serial.println(" ");
 
-    quaternionToEulerRV(&sensorValue.un.arvrStabilizedRV, &ypr, true);
-
-    static long last = 0;
-    long now = micros();
-    Serial.print(now - last);             Serial.print("\t");
-    last = now;
-    Serial.print(sensorValue.status);     Serial.print("\t");  // This is accuracy in the range of 0 to 3
-    Serial.print(ypr.yaw);                Serial.print("\t");
-    Serial.print(ypr.pitch);              Serial.print("\t");
-    Serial.println(ypr.roll);
-  }
-  delay(1);
+    // digitalWrite(S1C, HIGH);
+    // digitalWrite(S2C, HIGH);
+    // digitalWrite(S3C, HIGH);
+    // digitalWrite(S4C, HIGH);
+    // digitalWrite(S5C, HIGH);
+    // digitalWrite(S6C, HIGH);
+    // digitalWrite(S7C, HIGH);
+    // digitalWrite(S8C, HIGH);
+    // delay(500);
+    // digitalWrite(S1C, LOW);
+    // digitalWrite(S2C, LOW);
+    // digitalWrite(S3C, LOW);
+    // digitalWrite(S4C, LOW);
+    // digitalWrite(S5C, LOW);
+    // digitalWrite(S6C, LOW);
+    // digitalWrite(S7C, LOW);
+    // digitalWrite(S8C, LOW);
+    delay(500);
 }
-

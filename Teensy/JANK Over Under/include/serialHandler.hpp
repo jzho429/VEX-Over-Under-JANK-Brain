@@ -4,9 +4,7 @@
 COBS_DEFINE_STRUCT(TeensyData, {
     int16_t x;
     int16_t y;
-    float heading;
     float gyroHeading;
-    float headingMerged;
 });
 
 COBS_DEFINE_STRUCT(V5Data, {
