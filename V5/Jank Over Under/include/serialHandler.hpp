@@ -10,7 +10,14 @@ COBS_DEFINE_STRUCT(TeensyData, {
 
 COBS_DEFINE_STRUCT(V5Data, {
     bool disabled;
-    bool pistons[6];
+    unsigned char pistons0 : 1;
+    unsigned char pistons1 : 1;
+    unsigned char pistons2 : 1;
+    unsigned char pistons3 : 1;
+    unsigned char pistons4 : 1;
+    unsigned char pistons5 : 1;
+    unsigned char pistons6 : 1;
+    unsigned char pistons7 : 1;
 });
 
 extern TeensyData teensyData;

@@ -35,7 +35,7 @@ void receiveSerial() {
     while (true) {
         serialHandler.receive();
         v5Data = serialHandler.getV5Data();
-        threads.delay(50);
+        threads.delay(5);
     }
 }
 
@@ -62,28 +62,18 @@ void loop() {
     Serial.print("Disabled: ");
     Serial.print(v5Data.disabled);
     Serial.print("\tPistons:");
-    for (int i = 0; i < 6; i++) {
-        Serial.print(v5Data.pistons[i]);
-        Serial.print(", ");
-    }
+    Serial.print(" ");
+    Serial.print(v5Data.pistons0);
+    Serial.print(v5Data.pistons1);
+    Serial.print(v5Data.pistons2);
+    Serial.print(v5Data.pistons3);
+    Serial.print(v5Data.pistons4);
+    Serial.print(v5Data.pistons5);
+    Serial.print(v5Data.pistons6);
+    Serial.print(v5Data.pistons7);
     Serial.println(" ");
+    teensyData.x += 1;
+    teensyData.y += 2;
 
-    // digitalWrite(S1C, HIGH);
-    // digitalWrite(S2C, HIGH);
-    // digitalWrite(S3C, HIGH);
-    // digitalWrite(S4C, HIGH);
-    // digitalWrite(S5C, HIGH);
-    // digitalWrite(S6C, HIGH);
-    // digitalWrite(S7C, HIGH);
-    // digitalWrite(S8C, HIGH);
-    // delay(500);
-    // digitalWrite(S1C, LOW);
-    // digitalWrite(S2C, LOW);
-    // digitalWrite(S3C, LOW);
-    // digitalWrite(S4C, LOW);
-    // digitalWrite(S5C, LOW);
-    // digitalWrite(S6C, LOW);
-    // digitalWrite(S7C, LOW);
-    // digitalWrite(S8C, LOW);
     delay(500);
 }

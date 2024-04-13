@@ -26,14 +26,14 @@ void setupPneumatics() {
 void updatePneumatics() {
     while (true) {
         if (!v5Data.disabled) {
-            digitalWrite(S1C, v5Data.pistons[0]);
-            digitalWrite(S2C, v5Data.pistons[1]);
-            digitalWrite(S3C, v5Data.pistons[2]);
-            digitalWrite(S4C, v5Data.pistons[3]);
-            digitalWrite(S5C, v5Data.pistons[4]);
-            digitalWrite(S6C, v5Data.pistons[5]);
-            // digitalWrite(S7C, v5Data.pistons[6]);
-            // digitalWrite(S8C, v5Data.pistons[7]);
+            digitalWrite(S1C, v5Data.pistons0);
+            digitalWrite(S2C, v5Data.pistons1);
+            digitalWrite(S3C, v5Data.pistons2);
+            digitalWrite(S4C, v5Data.pistons3);
+            digitalWrite(S5C, v5Data.pistons4);
+            digitalWrite(S6C, v5Data.pistons5);
+            digitalWrite(S7C, v5Data.pistons6);
+            digitalWrite(S8C, v5Data.pistons7);
         }
         threads.delay(5);
     }
