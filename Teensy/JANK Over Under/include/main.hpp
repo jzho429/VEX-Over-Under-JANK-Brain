@@ -9,6 +9,7 @@
 
 #include "TeensyThreads.h"
 #include "cobs.hpp"
+#include "encoders.hpp"
 #include "gyro.hpp"
 #include "pneumatics.hpp"
 #include "serialHandler.hpp"

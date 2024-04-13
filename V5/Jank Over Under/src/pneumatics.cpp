@@ -1,5 +1,6 @@
 #include "main.h"
 
+// Updates v5Data Pistons based on pistonStatus
 void updatePneumatics() {
     while (true) {
         v5Data.pistons0 = bool(0b00000001 & pistonStatus);
@@ -14,6 +15,7 @@ void updatePneumatics() {
     }
 }
 
+// Set the value of a piston
 void setPneumatics(int piston, bool value) {
     pistonStatus = value ? pistonStatus | (0b00000001 << piston)
                          : pistonStatus & ~(0b00000001 << piston);

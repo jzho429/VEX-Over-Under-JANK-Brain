@@ -1,11 +1,12 @@
 #include "main.hpp"
 
-// constructer
+// Constructer
 Bno08x::Bno08x() {
     bno08x = Adafruit_BNO08x();
     setupGyro();
 }
 
+// Gyro setup, returns true if successful
 bool Bno08x::setupGyro() {
     // Try to initialize!
     if (!bno08x.begin_I2C(BNO08x_I2CADDR_DEFAULT, &Wire1)) {
@@ -22,6 +23,8 @@ bool Bno08x::setupGyro() {
     delay(100);  // Let the Gyro settle
     return true;
 }
+
+// Reads gyro sensor data and converts from quaternion to euler angles into ypr
 void Bno08x::updateGyro() {
     if (bno08x.wasReset()) {
         Serial.println("Sensor was reset");
@@ -32,6 +35,7 @@ void Bno08x::updateGyro() {
     }
 }
 
+// Sets sensorValue Type and Interval
 void Bno08x::setReports(sh2_SensorId_t reportType, long report_interval) {
     Serial.println("Setting desired reports");
     if (!bno08x.enableReport(reportType, report_interval)) {
@@ -39,6 +43,7 @@ void Bno08x::setReports(sh2_SensorId_t reportType, long report_interval) {
     }
 }
 
+// Converts quaternion to euler angles
 void Bno08x::quaternionToEuler(float qr, float qi, float qj, float qk,
                                euler_t* ypr, bool degrees) {
     float sqr = sq(qr);
@@ -57,6 +62,7 @@ void Bno08x::quaternionToEuler(float qr, float qi, float qj, float qk,
     }
 }
 
+// Sets ypr to euler angles from rotational vector
 void Bno08x::quaternionToEulerRV(sh2_RotationVectorWAcc_t* rotational_vector,
                                  euler_t* ypr, bool degrees) {
     quaternionToEuler(rotational_vector->real, rotational_vector->i,

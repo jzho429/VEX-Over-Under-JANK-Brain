@@ -3,8 +3,8 @@
 
 // Ignore the linting errors for the packed attribute
 COBS_DEFINE_STRUCT(TeensyData, {
-    int16_t x;
-    int16_t y;
+    // int32_t x;
+    // int32_t y;
     float gyroHeading;
 });
 

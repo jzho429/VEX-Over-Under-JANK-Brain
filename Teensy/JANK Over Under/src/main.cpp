@@ -2,28 +2,24 @@
 
 #include <main.hpp>
 
-#define S1C 30
-#define S2C 29
-#define S3C 32
-#define S4C 31
-#define S5C 26
-#define S6C 25
-#define S7C 28
-#define S8C 27
-
 SerialHandler serialHandler(115200);
 Bno08x gyro;
 V5Data v5Data;
 TeensyData teensyData;
 
+const bool debug = false;
+
+// Teensy thread to update gyro
 void updateGyro() {
     while (true) {
         gyro.updateGyro();
-        teensyData.gyroHeading = gyro.getEuler().yaw;
+        teensyData.gyroHeading =
+            gyro.getEuler().yaw;  // Change depending on orientation of board
         threads.delay(1);
     }
 }
 
+// Teensy thread to send serial data to V5
 void sendSerial() {
     while (true) {
         serialHandler.send(&teensyData);
@@ -31,6 +27,7 @@ void sendSerial() {
     }
 }
 
+// Teensy thread to receive serial data from V5
 void receiveSerial() {
     while (true) {
         serialHandler.receive();
@@ -39,16 +36,18 @@ void receiveSerial() {
     }
 }
 
+// Initialize the teensy
 void setup() {
-    // put your setup code here, to run once:
     Serial.begin(115200);
-    while (!Serial) {
-        if (CrashReport) {
-            Serial.print(CrashReport);
-            delay(5000);
+    if (debug) {
+        // Waits for serial monitor then runs
+        while (!Serial) {
+            if (CrashReport) {
+                Serial.print(CrashReport);
+                delay(5000);
+            }
         }
     }
-
     serialHandler.flush();
     setupPneumatics();
 
@@ -58,22 +57,23 @@ void setup() {
     threads.addThread(receiveSerial);
 }
 
+// Main loop, debug information
 void loop() {
-    Serial.print("Disabled: ");
-    Serial.print(v5Data.disabled);
-    Serial.print("\tPistons:");
-    Serial.print(" ");
-    Serial.print(v5Data.pistons0);
-    Serial.print(v5Data.pistons1);
-    Serial.print(v5Data.pistons2);
-    Serial.print(v5Data.pistons3);
-    Serial.print(v5Data.pistons4);
-    Serial.print(v5Data.pistons5);
-    Serial.print(v5Data.pistons6);
-    Serial.print(v5Data.pistons7);
-    Serial.println(" ");
-    teensyData.x += 1;
-    teensyData.y += 2;
-
-    delay(500);
+    if (debug) {
+        Serial.print("Disabled: ");
+        Serial.print(v5Data.disabled);
+        Serial.print("\tPistons:");
+        Serial.print(" ");
+        Serial.print(v5Data.pistons0);
+        Serial.print(v5Data.pistons1);
+        Serial.print(v5Data.pistons2);
+        Serial.print(v5Data.pistons3);
+        Serial.print(v5Data.pistons4);
+        Serial.print(v5Data.pistons5);
+        Serial.print(v5Data.pistons6);
+        Serial.print(v5Data.pistons7);
+        // Serial.print("\tX,Y: ");
+        // Serial.printf("%i  %i \r\n", teensyData.x, teensyData.y);
+    }
+    delay(100);
 }

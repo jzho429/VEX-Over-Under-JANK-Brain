@@ -1,12 +1,14 @@
 #pragma once
 #include "cobs.hpp"
 
+// Data struct Teensy Send to V5
 COBS_DEFINE_STRUCT(TeensyData, {
-    int16_t x;
-    int16_t y;
+    // int32_t x;
+    // int32_t y;
     float gyroHeading;
 });
 
+// Data struct Teensy Receive from V5
 COBS_DEFINE_STRUCT(V5Data, {
     bool disabled;
     unsigned char pistons0 : 1;
@@ -19,6 +21,7 @@ COBS_DEFINE_STRUCT(V5Data, {
     unsigned char pistons7 : 1;
 });
 
+// Serial Handler Class
 class SerialHandler {
    public:
     SerialHandler(int baudRate);
