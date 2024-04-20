@@ -11,7 +11,8 @@
 #define S8C 27
 
 // Setup pins to control pneumatics
-void setupPneumatics() {
+void setupPneumatics()
+{
     pinMode(S1C, OUTPUT);
     pinMode(S2C, OUTPUT);
     pinMode(S3C, OUTPUT);
@@ -23,9 +24,12 @@ void setupPneumatics() {
 }
 
 // Update the state of the pneumatics
-void updatePneumatics() {
-    while (true) {
-        if (!v5Data.disabled) {
+void updatePneumatics()
+{
+    while (true)
+    {
+        if (!v5Data.disabled)
+        {
             digitalWrite(S1C, v5Data.pistons0);
             digitalWrite(S2C, v5Data.pistons1);
             digitalWrite(S3C, v5Data.pistons2);
@@ -35,6 +39,6 @@ void updatePneumatics() {
             digitalWrite(S7C, v5Data.pistons6);
             digitalWrite(S8C, v5Data.pistons7);
         }
-        threads.delay(5);
+        threads.delay(20);
     }
 }

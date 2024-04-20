@@ -16,7 +16,7 @@ void SerialHandler::receive() {
     if (unsigned(HWSERIAL.available()) > cobsReceiver.size()) {
         cobsReceiver.read(cobsRead, nullptr);
         cobsReceiver.get(&v5Data);
-        // HWSERIAL.flush();
+        HWSERIAL.flush();
     }
 }
 

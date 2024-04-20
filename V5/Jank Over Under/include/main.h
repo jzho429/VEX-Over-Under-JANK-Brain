@@ -54,6 +54,7 @@
 // using namespace pros::literals;
 using namespace okapi;
 #include "cobs.hpp"
+#include "gyro.hpp"
 #include "pneumatics.hpp"
 #include "serialHandler.hpp"
 

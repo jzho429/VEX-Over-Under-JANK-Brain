@@ -23,7 +23,7 @@ void updateGyro() {
 void sendSerial() {
     while (true) {
         serialHandler.send(&teensyData);
-        threads.delay(1);
+        threads.delay(10);
     }
 }
 
@@ -51,10 +51,13 @@ void setup() {
     serialHandler.flush();
     setupPneumatics();
 
+    threads.setSliceMicros(10);
     threads.addThread(updateGyro);
-    threads.addThread(updatePneumatics);
+    int pneumaticsThread = threads.addThread(updatePneumatics);
     threads.addThread(sendSerial);
-    threads.addThread(receiveSerial);
+    int receiveSerialThread = threads.addThread(receiveSerial);
+    threads.setTimeSlice(pneumaticsThread, 2);
+    threads.setTimeSlice(receiveSerialThread, 2);
 }
 
 // Main loop, debug information
@@ -72,8 +75,9 @@ void loop() {
         Serial.print(v5Data.pistons5);
         Serial.print(v5Data.pistons6);
         Serial.print(v5Data.pistons7);
+        Serial.println("");
         // Serial.print("\tX,Y: ");
         // Serial.printf("%i  %i \r\n", teensyData.x, teensyData.y);
     }
-    delay(100);
+    delay(1);
 }
